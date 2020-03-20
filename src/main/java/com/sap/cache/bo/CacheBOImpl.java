@@ -23,7 +23,6 @@ public class CacheBOImpl implements CacheBO {
 
 	@Override
 	public Map<String, Object> getAllCache() {
-		// TODO Auto-generated method stub
 		Map<String, Object> map = new ConcurrentHashMap<>();
 		for (Map.Entry<String, SoftReference<Object>> entry : cache.entrySet())
 			map.put(entry.getKey(), entry.getValue().get());
