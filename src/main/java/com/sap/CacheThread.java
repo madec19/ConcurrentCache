@@ -12,7 +12,7 @@ import com.sap.cache.evictionstrategy.TimeBasedEvictionStrategy;
 
 
 @Component
-public class CacheConfig {
+public class CacheThread {
 
 	@Autowired
 	private SizeBasedEvictionStrategy sizeBasedEvictionStrategy;
