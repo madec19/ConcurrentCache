@@ -31,4 +31,11 @@ public class ResponseDTO {
 		this.data = data;
 	}
 
+	@Override
+	public String toString() {
+		return "ResponseDTO [status=" + status + ", data=" + data + "]";
+	}
+	
+	
+
 }
